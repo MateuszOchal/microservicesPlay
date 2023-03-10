@@ -1,0 +1,11 @@
+com\microservices\supervisor\SupervisorRepository.class
+com\microservices\supervisor\SupervisorController.class
+com\microservices\DemoApplication.class
+com\microservices\supervisor\SupervisorService.class
+com\microservices\student\StundentService.class
+com\microservices\student\StudentController.class
+com\microservices\supervisor\SupervisorDTO.class
+com\microservices\student\Student.class
+com\microservices\student\StudentRepository.class
+com\microservices\supervisor\Supervisor.class
+com\microservices\student\StudentDTO.class

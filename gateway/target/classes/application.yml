@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: GATEWAY-MICROSERVICE
+
+  cloud:
+    config:
+      discovery:
+        service-id: CONFIG-MICROSERVICE
+        enabled: true
+      profile: default
+    gateway:
+      routes:
+        - id: server-service
+          uri: lb://SERVER-MICROSERVICE
+          predicates:
+            - Path=/students/**, /supervisor/**
+server:
+  port: 8989
